@@ -1,0 +1,34 @@
+# Web framework
+fastapi
+uvicorn
+python-multipart
+
+# Database
+sqlalchemy
+alembic
+psycopg2-binary
+
+# Data validation
+pydantic
+pydantic-settings
+
+# Auth
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt
+
+# Environment
+python-dotenv
+
+# LLM + Agent
+langchain
+langchain-groq
+langgraph
+openai
+
+# SQL validation
+sqlparse
+
+# Frontend
+streamlit
+requests
