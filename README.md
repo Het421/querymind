@@ -1,7 +1,5 @@
 #  SQL Assistant
 
-> 🚧 **Work in Progress** — Backend is fully complete. Frontend is currently under active development.
-
 An AI-powered database assistant that helps developers write SQL queries,
 create views, stored procedures, triggers, and understand their database
 — all in plain English.
