@@ -16,7 +16,10 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:8501",
-        "http://127.0.0.1:8501"
+        "http://127.0.0.1:8501",
+        "http://localhost:8000",
+        "null",        # ← add this for direct file:// access
+        "*"            # ← or just allow all during development
     ],
     allow_credentials=True,
     allow_methods=["*"],

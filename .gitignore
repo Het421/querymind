@@ -18,3 +18,4 @@ Thumbs.db
 
 # Test files
 test_db.py
+.early.coverage
